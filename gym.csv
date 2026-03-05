@@ -1,0 +1,22 @@
+﻿Gym Business Data,Day of the Week,Time Block,"Busyness(Low, Medium, High)",Date
+1,Sunday,Morning,Low,3/1/26
+2,Sunday,Noon,Medium,3/7/26
+3,Sunday,Evening,High,3/14/26
+4,Monday,Morning,Medium,3/2/26
+5,Monday,Noon,Low,3/8/26
+6,Monday,Evening,High,3/15/26
+7,Tuesday,Morning,Medium,3/3/26
+8,Tuesday,Noon,Medium,3/9/26
+9,Tuesday,Evening,High,3/16/26
+10,Wednesday,Morning,Medium,3/4/26
+11,Wednesday,Noon,Low,3/10/26
+12,Wednesday,Evening,High,3/17/26
+13,Thursday,Morning,Medium,3/5/26
+14,Thursday,Noon,Medium,3/11/26
+15,Thursday,Evening,High,3/18/26
+16,Friday,Morning,Medium,3/6/26
+17,Friday,Noon,Medium,3/12/26
+18,Friday,Evening,High,3/19/26
+19,Saturday,Morning,Medium,3/7/26
+20,Saturday,Noon,Low,3/13/26
+21,Saturday,Evening,High,3/20/26
