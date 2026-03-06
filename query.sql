@@ -4,7 +4,7 @@
 
 /* Total observations collected */
 
-SELECT COUNT(day_of_the_week)
+SELECT COUNT(*)
 FROM Gym_Busyness;
 
 /* First and last day of data collection */
@@ -58,3 +58,20 @@ WHERE busyness = "Medium" OR busyness = "Low";
 SELECT *
 FROM Gym_Busyness
 ORDER BY busyness;
+
+/* =====================================================
+   BAR GRAPH QUERIES
+===================================================== */
+
+/* How many Low, Medium, and High congestions for each Time Block:*/
+
+SELECT time_block,
+       busyness,
+       COUNT(*) AS count
+FROM Gym_Busyness
+GROUP BY busyness
+ORDER BY time_block;
+
+
+
+
