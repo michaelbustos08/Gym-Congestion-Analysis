@@ -9,9 +9,9 @@ FROM Gym_Busyness;
 
 /* First and last day of data collection */
 
-SELECT
-MIN(Date),
-MAX(Date)
+SELECT 
+MIN (date) AS "First_day",
+MAX (date) AS "Last_day"
 FROM Gym_Busyness;
 
 /* =====================================================
